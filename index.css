@@ -37,6 +37,7 @@ nav {
 h2 {
 	text-transform: capitalize;
 	color: white;
+	backgroundColor: #33334d;
 	font-weight: 700;
 	font-size: 2.0rem;
 }
