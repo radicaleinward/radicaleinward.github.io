@@ -1,6 +1,12 @@
 body {
 	background-color: #232323;
+	margin: 0;
+	font-family: "Barlow Condensed", "Avenir", "Sans Serif";
 }
+
+/*button {
+	font-family: "Barlow Condensed"
+}*/
 
 .square {
 	width: 30%;
@@ -17,12 +23,21 @@ body {
 
 h1 {
 	color: white;
+	text-align: center;
+	font-weight: normal;
+	letter-spacing: 3px;
+	line-height: 1.1;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
 }
 
 /*span {
 	color: white;
 }
 */
+
 #stripe {
 	background-color: white;
 	height: 30px;
@@ -32,4 +47,8 @@ h1 {
 
 .selected {
 	background-color: blue;
+}
+
+#colorDisplay {
+	font-size: 200%;
 }
