@@ -24,7 +24,7 @@ nav {
 }
 
 .navbar-brand {
-	letter-spacing: 3px;
+	letter-spacing: 6.5px;
 	font-weight: bold;
 }
 
@@ -37,7 +37,7 @@ nav {
 h2 {
 	text-transform: capitalize;
 	color: white;
-	background-color: #33334d;
+	background-color: #eee;
 	font-weight: 700;
 	font-size: 2.0rem;
 }
