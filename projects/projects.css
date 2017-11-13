@@ -16,4 +16,7 @@ nav {
 .navbar-brand {
 	letter-spacing: 3px;
 	font-weight: bold;
+
+.active {
+	font-weight: bold;
 }
