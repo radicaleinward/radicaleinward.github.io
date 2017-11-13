@@ -1,5 +1,5 @@
-$(".active").hover(function(){
-	$(this).css("font-weight", "bold");
+$("nav").hover(function(){
+	$(this).addClass(".active");
 }, function(){
-	$(this).css("font-weight", "normal")
-})
+	$(this).removeClass(".active");
+});
