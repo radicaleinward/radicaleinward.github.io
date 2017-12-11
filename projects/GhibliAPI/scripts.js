@@ -40,7 +40,7 @@ request.onload = function () {
 	  	card.appendChild(p);
     });
   } else {
-    cont errorMessage = document.createElement('marquee');
+    const errorMessage = document.createElement('marquee');
     errorMessage.textConent = "Crap, it's broken."
     app.appendChild(errorMessage);
   }
