@@ -39,8 +39,13 @@ if (request.status >= 200 && request.status < 400) {
 	  	card.appendChild(p);
     });
   } else {
+<<<<<<< HEAD
     cont errorMessage = document.createElement('marquee');
     errorMessage.textConent = "Crap, it's broken.";
+=======
+    const errorMessage = document.createElement('marquee');
+    errorMessage.textConent = "Crap, it's broken."
+>>>>>>> ecb10dc3f54faa8ec428394b595310aea33e8da4
     app.appendChild(errorMessage);
   }
 }
