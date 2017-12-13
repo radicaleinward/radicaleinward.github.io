@@ -7,40 +7,6 @@ body {
 	font: 2em "Spectral SC";
 	padding: 5px;
 }
-/*
-.wrapper {
-	display: grid;
-	grid-gap: 5em;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-	padding: 1em;
-	text-align: center;
-}
-
-.wrapper > div {
-	background: #eee;
-	padding: 1em;
-	opacity: 0.6;
-}
-
-.wrapper > div:nth-child(odd) {
-	background: #ddd;
-	padding: 1em;
-}
-*/
-
-#square {
-	grid-gap: 2em;
-	width: 30%;
-	background: purple;
-	padding-bottom: 30%;
-	float: left;
-	margin: 1.66%;
-	border-radius: 15%;
-	transition: background 0.4s;
-	-webkit-transition: background 0.4s;
-	-moz-transition: background 0.4s;
-}
 
 nav {
 	text-transform: uppercase;
@@ -51,8 +17,4 @@ nav {
 .navbar-brand {
 	letter-spacing: 6.5px;
 	font-weight: bold;
-}
-
-.active {
-	font-weight: 700;
 }
