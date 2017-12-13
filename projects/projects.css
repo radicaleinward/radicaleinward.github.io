@@ -7,13 +7,13 @@ body {
 	font: 2em "Spectral SC";
 	padding: 5px;
 }
-
+/*
 .wrapper {
 	display: grid;
 	grid-gap: 5em;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
-	/*padding: 1em;*/
+	padding: 1em;
 	text-align: center;
 }
 
@@ -27,6 +27,7 @@ body {
 	background: #ddd;
 	padding: 1em;
 }
+*/
 
 #square {
 	grid-gap: 2em;
@@ -45,10 +46,12 @@ nav {
 	text-transform: uppercase;
 	opacity: 0.55;
 	letter-spacing: 6.5px;
+}
 
 .navbar-brand {
-	letter-spacing: 3px;
-	font-weight: normal;
+	letter-spacing: 6.5px;
+	font-weight: bold;
+}
 
 .active {
 	font-weight: 700;
