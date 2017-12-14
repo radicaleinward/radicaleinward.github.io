@@ -1,9 +1,12 @@
 body {
-  background-size: cover;
-  background-image:    linear-gradient(
+  background:  linear-gradient(
       rgba(217, 217, 217, 0.45), 
       rgba(217, 217, 217, 0.45)
-    ), url(https://images.unsplash.com/photo-1481278403982-f2d9f387cdcc?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D)
+    ), url(https://images.unsplash.com/photo-1481278403982-f2d9f387cdcc?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 
 nav {
