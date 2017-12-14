@@ -10,12 +10,12 @@ body {
 }
 
 nav {
-	text-transform: uppercase;
-	opacity: 0.55;
-	letter-spacing: 6.5px;
+  text-transform: uppercase;
+  opacity: 0.55;
+  letter-spacing: 6.5px;
 }
 
 .navbar-brand {
-	letter-spacing: 6.5px;
-	font-weight: bold;
+  letter-spacing: 6.5px;
+  font-weight: bold;
 }
