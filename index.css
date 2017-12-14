@@ -1,10 +1,9 @@
 body {
-	background: #403B4A;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background-size: cover;
-	font: 2em "Spectral SC";
-	padding: 5px;
+  background-size: cover;
+  background-image:    linear-gradient(
+      rgba(217, 217, 217, 0.45), 
+      rgba(217, 217, 217, 0.45)
+    ), url(https://images.unsplash.com/photo-1481278403982-f2d9f387cdcc?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D)
 }
 
 nav {
@@ -15,10 +14,11 @@ nav {
 
 .blog {
 	margin: 2% 20%;
-	border: 20px solid hsl(89, 100%, 10%);
+	border: 3px solid #b3b3b3 /* hsl(89, 100%, 10%) */;
 	padding: 20px;
 	font: 16px;
 	color: white;
+  background-color: black;
 	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
 }
 
@@ -36,7 +36,6 @@ nav {
 h2 {
 	text-transform: capitalize;
 	color: white;
-	background-color: #eee;
 	font-weight: 700;
 	font-size: 2.0rem;
 }
