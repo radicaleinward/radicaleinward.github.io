@@ -1,11 +1,12 @@
 body {
-	background: url("https://i.imgur.com/EhOM2yZ.jpg") no-repeat center center fixed; 
-  	-webkit-background-size: cover;
- 	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	font: 2em "Spectral SC";
-	padding: 5px;
+  background:  linear-gradient(
+      rgba(217, 217, 217, 0.45), 
+      rgba(217, 217, 217, 0.45)
+    ), url(https://images.unsplash.com/photo-1481278403982-f2d9f387cdcc?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 
 nav {
