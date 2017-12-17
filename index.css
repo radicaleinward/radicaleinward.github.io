@@ -49,3 +49,8 @@ hr {
 	text-transform: uppercase;
 	color: white;
 }
+
+#selected {
+  color: white;
+  background-color: gray;
+}
