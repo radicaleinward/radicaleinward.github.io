@@ -1,5 +1,7 @@
-$("nav").hover(function(){
-	$(this).addClass(".active");
+var navList = document.querySelectorAll("a");
+
+$(navList).hover(function(){
+  this.setAttribute('id', 'selected');
 }, function(){
-	$(this).removeClass(".active");
+  this.removeAttribute('id', 'selected');
 });
