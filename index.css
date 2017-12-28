@@ -1,56 +1,111 @@
 body {
+
   	background-size: cover;
+
   	background-image: linear-gradient(rgba(217, 217, 217, 0.45), rgba(217, 217, 217, 0.45)), 
+
   	url(https://images.unsplash.com/photo-1481278403982-f2d9f387cdcc?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+
 }
+
+
 
 nav {
+
   	font-family: "Spectral SC";
+
   	font-weight: 700;
+
   	text-transform: uppercase;
+
 	opacity: 0.66;
+
 	letter-spacing: .5em;
+
 }
+
+
 
 h2 {
+
 	text-transform: capitalize;
+
 	color: white;
+
 	font-weight: 700;
+
 	font-size: 2.0rem;
+
   	text-align: center;
+
 }
+
+
 
 hr {
+
 	border: 0; 
+
  	height: 1px; 
+
  	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+
  	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+
  	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+
   	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+
 }
+
+
 
 .blog {
+
 	margin: 2% 20%;
+
 	border: 3px solid #b3b3b3 /* hsl(89, 100%, 10%) */;
+
 	padding: 20px;
+
   	font-size: 1.16em;
+
 	color: white;
+
   	background-color: black;
+
 	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+
 }
+
+
 
 .navbar-brand {
+
 	letter-spacing: .5em;
+
 	font-weight: bold;
+
 }
+
+
 
 .date {
+
 	letter-spacing: 0.4rem;
+
 	text-transform: uppercase;
+
 	color: white;
+
 }
 
+
+
 #selected {
+
   color: white;
+
   background-color: gray;
+
 }

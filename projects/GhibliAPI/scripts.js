@@ -31,6 +31,7 @@ request.onload = function () {
       card.appendChild(h1);
       card.appendChild(p);
     });
+    
   } else {
     const errorMessage = document.createElement('marquee');
     errorMessage.textContent = `Gah, it's not working!`;

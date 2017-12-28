@@ -1,37 +1,68 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="about.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Spectral+SC:400,700" rel="stylesheet">
-	<title>About Me</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Spectral+SC:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="about.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edward Wilk - Portfolio - Home</title>
 </head>
+
 <body>
-
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="http://radicaleinward.github.io">Edward Wilk</a>
-		    </div>
-
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		        <li class="active"><a href="/about/about.html">About Me <span class="sr-only">(current)</span></a></li>
-		        <li><a href="/projects/projects.html">Projects</a></li>
-		      </ul>
-		      <form class="navbar-form navbar-left"></form>
-		    </div><!-- /.navbar-collapse -->
-	  	</div><!-- /.container-fluid -->
-	</nav>
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<!-- Nav Bar   -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Edward Wilk</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="/about/about.html">About Me</a></li>
+          <li><a href="/projects/projects.html">Projects</a></li>
+          <li><a href="/wordpress">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <div class="wrapper">
+    <div class="col-md-2">
+    <img class="img-responsive thumbnail" src="https://i.imgur.com/H0nsLnX.jpg" alt="my headshot">
+    </div>
+    <div class="col-md-8" id="main_col">
+     <p>This is the page where I'll eventually have my resume up, along with a bunch of different information about myself.<p>
+      <p>There is currently a temporary "Contact Me" form below.  Once I've worked on AJAX and PHP, I'll re-do the form with a submission button that sends the information directly to my email address.  In the long run, I'd love to have that contact me button used by potential employers and clients.  Until now, I'll just bug people I know to try it out.</p>
+      <p>As far as functionality, I plan to eventually have:</p>
+        <ul class="about_list">
+          <li>A completed contact form.</li>
+          <li>One of the de rigueur "skills" sections, as you can see <a href="https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAOhAAAAJDM3MzMwMzYzLWE4NWQtNDBmMS1iMGJlLTFmNWU5YjYyMTM1Yg.jpg">here</a> or <a href="https://i.stack.imgur.com/gRQf3.jpg">here</a>.</li>
+          <li>A copy of (or link to) my resume.</li>
+          <li>A map of the world, with countries I've been to highlighted.  Clicking on these countries will send the user to
+            a photography "blog" site with photos I took while in that country.</li>
+        </ul>
+      <p>And now for some more "lorem ipsum" text to fill up the page while I play around with how things look:</p>
+      <p><strong>"Massa ultricies mi quis hendrerit dolor magna eget. In eu mi bibendum neque. Justo eget magna fermentum iaculis eu non diam. Ac tortor dignissim convallis aenean et. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Sed nisi lacus sed viverra tellus in hac. Nisi porta lorem mollis aliquam ut porttitor leo a diam. Hac habitasse platea dictumst quisque sagittis. Auctor eu augue ut lectus arcu bibendum. Tortor aliquam nulla facilisi cras fermentum odio eu."</strong></p>
+      <hr>
+      <div id="contact_form">
+        <h2>Contact Me</h2>
+        <form class="form-inline">
+        <div class="form-group">
+          <label for="exampleInputName2">Name:</label>
+          <input type="text" class="form-control" id="name_input" placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail2">Email:</label>
+          <input type="email" class="form-control" id="email_input"  placeholder="jane.doe@gmail.com">
+        </div>
+        </form>
+        <textarea class="form-control" id="contact_form" rows="6"></textarea>
+       </div>
+       <div class="col-md-2"></div>
+   </div>
+  </div>
+      
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="about.js">  </script>
 </body>
+
+
 </html>
