@@ -1,225 +1,101 @@
-<!DOCTYPE html>
-
 <html>
 
 <head>
-
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Spectral+SC:400,700" rel="stylesheet">
-
-	<link rel="stylesheet" type="text/css" href="/projects/projects.css">
-
-	<title>Projects / Portfolio</title>
-
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Spectral+SC:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/projects/projects.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <title>Projects / Portfolio</title>
 </head>
-
-
+<!-- Nav Bar -->
 
 <body>
+  <div class="navbar">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">Edward Wilk</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/about/about.html">About Me</a></li>
+            <li><a href="/projects/projects.html">Projects</a></li>
+            <li><a href="https://winterhillwebdev.com/wordpress">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Project Grid -->
+    <main>
+      <section id="container">
+        <!--   Row 1       -->
+        <div class="row">
 
-	<nav class="navbar navbar-default">
+          <div class="col-md-4 col-sm-6">
+            <a href="/projects/colorGame/ColorGame.html"><div class="thumbnail" data-title="Color Game" data-description="This is a color game I made using HTML5, CSS3, JavaScript, and jQuery.">
+              <img src="http://jonvilma.com/images/colors-6.jpg">
+            </div></a>
+          </div>
 
-        <div class="container-fluid">
-
-            <div class="navbar-header">
-
-                <a class="navbar-brand" href="/">Edward Wilk</a>
-
+          <div class="col-md-4 col-sm-6">
+            <div class="thumbnail" data-title="Yelp Clone" data-description="This app will be a Yelp-type app utilizing MongoDB and node.js in addition             to the standard HTML/CSS/JS tools.">
+              <img src="https://d3tdunqjn7n0wj.cloudfront.net/1400x933/node-c4e49c25d15310e98fdd371dedc83f2e.jpg">
             </div>
-
-            <div class="collapse navbar-collapse">
-
-            <ul class="nav navbar-nav navbar-right">
-
-                    <li><a href="/about/about.html">About Me</a></li>
-
-                    <li><a href="/projects/projects.html">Projects</a></li>
-
-                    <li><a href="https://winterhillwebdev.com/wordpress">Blog</a></li>
-
-                </ul>
-
+          </div>
+          
+          <div class="col-md-4 col-sm-6">
+            <div class="thumbnail" data-title="MySQL & node.js App" data-description="An app utilizing MySQL and node.js, hosted on Heroku.">
+              <img class = "img-relative" src="https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/nodejs-frameworks.png">
             </div>
-
+          </div>
         </div>
 
-    </nav>
-
-
-
-	<div class="row text-center">
-
-		<div class="col-md-4 col-sm-6">
-
-			<div class="thumbnail">
-
-				<a href="/projects/colorGame/ColorGame.html"><img src="/projects/colorGame/square.png"></a>
-
-				<div class="caption">
-
-					<h4>Color Game</h4>
-
-				</div>
-
-			</div>
-
-		</div>
-
-
-
-		<div class="col-md-4 col-sm-6">
-
-			<div class="thumbnail">
-
-				<img src="https://dummyimage.com/400x400/000/fff.jpg">
-
-				<div class="caption">
-
-					<h4>Yelp Clone w/MongoDB</h4>
-
-				</div>
-
-			</div>
-
-		</div>
-
-
-
-		<div class="col-md-4 col-sm-6">
-
-			<div class="thumbnail">
-
-				<img src="https://dummyimage.com/400x400/000/fff.jpg">
-
-				<div class="caption">
-
-					<h4>MySQL & node.js</h4>
-
-				</div>
-
-			</div>
-
-		</div>
-
-
-
-		<div class="col-md-4 col-sm-6">
-
-			<div class="thumbnail">
-
-				<img src="https://dummyimage.com/400x400/000/fff.jpg">
-
-				<div class="caption">
-
-					<h4>Live Data</h4>
-
-				</div>
-
-			</div>
-
-		</div>
-
-
-
-
-
-		<div class="col-md-4 col-sm-6">
-
-			<div class="thumbnail">
-
-				<a href="/projects/GhibliAPI/index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkeqpguZ8FdxeObx9xgoGnk6uAgW2-02QWqUS4WCrHF0p2nw66">
-
-				<div class="caption">
-
-					<h4>Studio Ghibli API</h4>
-
-				</div>
-
-			</div>
-
-		</div>
-
-
-
-		<div class="col-md-4 col-sm-6">
-
-			<div class="thumbnail">
-
-				<img src="https://dummyimage.com/400x400/000/fff.jpg">
-
-				<div class="caption">
-
-					<h4>D3 Project</h4>
-
-				</div>
-
-			</div>
-
-		</div>
-
-
-
-		<div class="col-md-4 col-sm-6">
-
-			<div class="thumbnail">
-
-				<img src="https://dummyimage.com/400x400/000/fff.jpg">
-
-				<div class="caption">
-
-					<h4>Wordpress Custom Local 1</h4>
-
-				</div>
-
-			</div>
-
-		</div>
-
-
-
-		<div class="col-md-4 col-sm-6">
-
-			<div class="thumbnail">
-
-				<img src="https://dummyimage.com/400x400/000/fff.jpg">
-
-				<div class="caption">
-
-					<h4>Wordpress Custom Local 2</h4>
-
-				</div>
-
-			</div>
-
-		</div>
-
-
-
-		<div class="col-md-4 col-sm-6">
-
-			<div class="thumbnail">
-
-				<img src="https://dummyimage.com/400x400/000/fff.jpg">
-
-				<div class="caption">
-
-					<h4>Wordpress Custom Local 3</h4>
-
-				</div>
-
-			</div>
-
-		</div>
-
-	</div>
-
-
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
-	<script type="text/javascript" src="/projects/projects.js"></script>
+        <!--    Row 2      -->
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <div class="thumbnail" data-title="React.js App" data-description="A react.js app showing live data.">
+              <img src="https://dev.codetrick.net/wp-content/uploads/2017/05/7.png">
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <a href="/projects/GhibliAPI/index.html"><div class="thumbnail" data-title="Studio Ghibli API" data-description="Using JSON to pull data from the Studio Ghibli API.">
+              <img src="https://33hpwq10j9luq8gl43e62q4e-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/studio_ghibli_logo.jpg">
+            </div></a>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <div class="thumbnail" data-title="D3 Project" data-description="Data visualization using D3.">
+              <img src="https://cdn.datafloq.com/cms/2015/05/28/d3-js.png">
+            </div>
+          </div>
+        </div>
+
+        <!--    Row 3      -->
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <div class="thumbnail" data-title="Wordpress Project 1" data-description="Creating a Wordpress custom theme.">
+              <img src="https://www.markupbox.com/blog/wp-content/uploads/2016/12/festured.png">
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <div class="thumbnail" data-title="Wordpress JM Bowers" data-description="Creating a Wordpress site for local HVAC expert JM Bowers.">
+              <img src="https://buddypressthemes.org/wp-content/uploads/2017/07/wp.png">
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <div class="thumbnail" data-title="Wordpress Project 3" data-description="A Wordpress site based around a fictional store (or maybe for payments to me), showing ability to set up eCommerce in a Wordpress environment.">
+              <img src="https://www.hostpapa.com/blog/wp-content/uploads/2017/09/wordpress-bg-medblue.png">
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="/projects/projects.js"></script>
 
 </body>
 
 </html>
-
